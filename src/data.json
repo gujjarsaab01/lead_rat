@@ -1,0 +1,1391 @@
+{
+  "name": "Cinema Hall 1",
+
+  "total_rows": 10,
+
+  "total_columns": 10,
+
+  "seating_layout": [
+    {
+      "row": 1,
+      "label": "Q",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        {
+          "position": 4,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 6, "status": "empty" },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 9, "status": "empty" },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 12, "status": "empty" },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 15, "status": "empty" },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 18, "status": "empty" },
+        {
+          "position": 19,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 21, "status": "empty" },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 24, "status": "empty" },
+        { "position": 25, "status": "empty" }
+      ]
+    },
+    {
+      "row": 2,
+      "label": "P",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        {
+          "position": 4,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 6, "status": "empty" },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 9, "status": "empty" },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 12, "status": "empty" },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 15, "status": "empty" },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 18, "status": "empty" },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 22, "status": "empty" },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 25, "status": "empty" }
+      ]
+    },
+    {
+      "row": 3,
+      "label": "N",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "unavailable",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 6,
+          "status": "unavailable",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 7,
+          "status": "unavailable",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 8,
+          "status": "unavailable",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Premium"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "label": "M",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "label": "L",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "label": "K",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "label": "J",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "label": "H",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "label": "G",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "label": "F",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "label": "E",
+      "seats": [
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
+        { "position": 4, "status": "empty" },
+        {
+          "position": 5,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 6,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 7,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 8,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 9,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 10,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 11,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 12,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 13,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 14,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 15,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 16,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 17,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 18,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        { "position": 19, "status": "empty" },
+        {
+          "position": 20,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 21,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 22,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 23,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 24,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        },
+        {
+          "position": 25,
+          "status": "available",
+          "isSelected": false,
+          "type": "Standard"
+        }
+      ]
+    }
+  ]
+}
