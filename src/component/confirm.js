@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Confetti from "react-confetti";
+
 
 const ConfirmationModal = ({ isopen, onConfirm }) => {
-  const [confetti, setConfetti] = useState(false);
+ 
   const[notification,setNotification]=useState(false);
   const handclick = (e) => {
     // console.log(e);
@@ -11,7 +11,7 @@ const ConfirmationModal = ({ isopen, onConfirm }) => {
       isopen(false);
     }else{
       setNotification(true);
-      setConfetti(true);
+      
       
   }
   };
@@ -22,7 +22,7 @@ if(notification)
         <p id="text">Your seat is booked!</p>
         <button id="btn1" onClick={()=>isopen(false)}>OK</button>
       </div>
-      <Confetti/>
+     
     </div>
   );
   return (
@@ -50,7 +50,7 @@ if(notification)
               class="btn btn-primary"
               onClick={() => {
                 handclick(true);
-                // setConfetti(true)
+                
               }}
             >
               Confirm
