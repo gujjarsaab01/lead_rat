@@ -7,15 +7,17 @@ function Select() {
   const dispatch = useDispatch();
   const opt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
-    <div className="select">
+    <div>
+
       <div className="header">
         <h2>Book Your Show!</h2>
         <p>Title: Jawaan</p>
         <p>Show Time: 12:00 PM</p>
       </div>
+    <div className="select ">
       <div className="s-div">
       <select
-        className="custom-select"
+        className="custom-select  letter-spacing"
         onChange={(e) => dispatch(setticket(e.target.value))}
         value={ticket}
       >
@@ -26,7 +28,7 @@ function Select() {
         <option>Premium</option>
       </select>
       <select
-        className="custom-select"
+        className="custom-select letter-spacing"
         onChange={(e) => dispatch(setQty(e.target.value))}
         value={Qty}
       >
@@ -38,6 +40,7 @@ function Select() {
         })}
       </select>
      </div>
+    </div>
     </div>
   );
 }

@@ -1,63 +1,48 @@
 import React, { useState } from "react";
 
-
 const ConfirmationModal = ({ isopen, onConfirm }) => {
- 
-  const[notification,setNotification]=useState(false);
+  const [notification, setNotification] = useState(false);
   const handclick = (e) => {
     // console.log(e);
     onConfirm(e);
-    if(!e){
+    if (!e) {
       isopen(false);
-    }else{
+    } else {
       setNotification(true);
-      
-      
-  }
+    }
   };
-if(notification)
+  if (notification)
+    return (
+      
+        <div id="notification">
+          <p id="text">Your seat is booked!</p>
+          <button className="letter-spacing" id="btn1" onClick={() => isopen(false)}>
+            OK
+          </button>
+        </div>
+      
+    );
   return (
-    <div id="n-div">
-      <div id="notification">
-        <p id="text">Your seat is booked!</p>
-        <button id="btn1" onClick={()=>isopen(false)}>OK</button>
-      </div>
-     
-    </div>
-  );
-  return (
-    <div class="modal"  role="dialog">
+    <div class="modal" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-              onClick={() => handclick(false)}
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+         
           <div class="modal-body">
             <p>Are you sure you want to proceed?</p>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer ">
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary letter-spacing"
               onClick={() => {
                 handclick(true);
-                
               }}
             >
               Confirm
             </button>
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary letter-spacing "
               data-dismiss="modal"
               onClick={() => {
                 handclick(false);
@@ -68,7 +53,6 @@ if(notification)
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

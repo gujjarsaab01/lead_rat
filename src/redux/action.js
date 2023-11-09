@@ -26,7 +26,8 @@ export const selectseat = (data, Qty, seatdata) => {
   Qty=+Qty-seatarr.length;
 
   for (let i = +data[1] - 1; i < arr.length; i++) {
-    if (Qty <= 0 || arr[i].status==='empty') {
+    if (Qty <= 0 || arr[i].status === 'empty') {
+      
       break;
     }
 

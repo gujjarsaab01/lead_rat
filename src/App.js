@@ -9,7 +9,6 @@ import { useDispatch } from 'react-redux';
 import { setData } from './redux/action';
 import jsonData from"./data.json";
 
-
 function App() {
   const[confirm,setConfirm]=useState(false)
   const[proceed,setProceed]=useState(false)
@@ -24,12 +23,15 @@ function App() {
     )
   }
   return (
-    <div className="App">
-      
-        <Select/>
+    <>
+     
+      <Select />
+      <div className='app'>
+        
         <Table proceed={proceed} setProceed={setProceed} setConfirm={setConfirm}/>
         <Seatinfo/>
       </div>
+      </>
   );
 }
 
