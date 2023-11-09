@@ -8,7 +8,7 @@ function Table({ proceed, setProceed, setConfirm }) {
   const seatData = useSelector((state) => state.seating_layout);
   const ticket = useSelector((state) => state.ticket);
   const Qty = useSelector((state) => state.Qty);
-  const handerclick = (e) => {
+  const handleClick = (e) => {
     const seatArr = JSON.parse(localStorage.getItem("select")) || [];
 
     if (Qty < seatArr.length) {
@@ -29,8 +29,10 @@ function Table({ proceed, setProceed, setConfirm }) {
     }
   };
   if (proceed) {
-    handersubmit();
-    setProceed(false);
+    setTimeout(() => {
+      handersubmit();
+      setProceed(false);
+    }, 0);
   }
   return (
     <>
@@ -86,7 +88,7 @@ function Table({ proceed, setProceed, setConfirm }) {
                           id={label + row + "_" + position}
                           key={label + row + "_" + position}
                           onClick={() =>
-                            handerclick(label + row + "_" + position)
+                            handleClick(label + row + "_" + position)
                           }
                         >
                           <ChairIcon className="h a seat-hover" />

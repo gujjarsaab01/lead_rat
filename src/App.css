@@ -245,18 +245,24 @@ button {
 }
 
 
+
 #notification {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
-  width: 60%;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
   margin: 1rem auto;
   background-color: #f0f4f8;
-  position: relative;
   border-radius: 5px;
   letter-spacing: 5px;
 }
+
 #notification > button {
   width: 50%;
   position: relative;
@@ -266,4 +272,104 @@ button {
   background-color: #007bff;
   border-color: #007bff;
   padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
+
+/* Existing styles remain unchanged */
+
+/* Add a media query for devices with a maximum width of 500 pixels */
+@media (max-width: 500px) {
+  *{
+    overflow-x: auto;
+    font-size: 15px;
+   
+  }
+  .app {
+    
+    display: flex;
+     flex-direction: column;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .header h2, p{
+    font-size: 19px !important;
+    margin: 3px ;
+  }
+  .select{
+
+    margin: 4px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+
+
+  .container {
+   margin: 20px;
+    padding: 15px;
+    max-width: 100%; /* Adjust the max-width for better responsiveness */
+    left: 0;
+  }
+
+  table td {
+    
+    font-size: 14px; /* Adjust the font size for better readability on mobile */
+  }
+
+  button {
+   width: 90%;
+  
+   left: 5%;
+  }
+
+  .info {
+    padding: 20px;
+    left: 0; 
+    margin-top: 10px;
+  }
+  .modal-dialog {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 90%; 
+    
+    height:  auto;
+   
+  }
+  .modal-footer {
+    display: flex;
+    flex-direction: row;
+   
+    width: 50%;
+    left: 0; 
+    /* margin-right: 0;  */
+  }
+.btn-secondary{
+  position: relative;
+}
+  .btn-primary {
+    display: inline-block;
+    position: relative;
+   
+    margin: 0.4rem 0;
+    
+  }
+
+  #notification {
+    text-wrap: wrap;
+    width: 80%; /* Adjust the notification width for better display on mobile */
+  }
+
+  #notification > button {
+    margin: 10px;
+    width: 90%; /* Adjust the button width for better display on mobile */
+  }
 }

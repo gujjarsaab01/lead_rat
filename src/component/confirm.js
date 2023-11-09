@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const ConfirmationModal = ({ isopen, onConfirm }) => {
   const [notification, setNotification] = useState(false);
-  const handclick = (e) => {
+  const handleClick = (e) => {
     // console.log(e);
     onConfirm(e);
     if (!e) {
@@ -23,29 +23,29 @@ const ConfirmationModal = ({ isopen, onConfirm }) => {
       
     );
   return (
-    <div class="modal" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
+    <div className="modal" role="dialog">
+      <div className="modal-dialog" role="document">
+        <div className="modal-content">
          
-          <div class="modal-body">
+          <div className="modal-body">
             <p>Are you sure you want to proceed?</p>
           </div>
-          <div class="modal-footer ">
+          <div className="modal-footer ">
             <button
               type="button"
-              class="btn btn-primary letter-spacing"
+              className="btn btn-primary letter-spacing"
               onClick={() => {
-                handclick(true);
+                handleClick(true);
               }}
             >
               Confirm
             </button>
             <button
               type="button"
-              class="btn btn-secondary letter-spacing "
+              className="btn btn-secondary letter-spacing "
               data-dismiss="modal"
               onClick={() => {
-                handclick(false);
+                handleClick(false);
               }}
             >
               Cancel

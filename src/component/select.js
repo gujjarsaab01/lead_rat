@@ -21,7 +21,7 @@ function Select() {
         onChange={(e) => dispatch(setticket(e.target.value))}
         value={ticket}
       >
-        <option disabled selected>
+        <option disabled >
           Ticket Type
         </option>
         <option>Standard</option>
@@ -32,7 +32,7 @@ function Select() {
         onChange={(e) => dispatch(setQty(e.target.value))}
         value={Qty}
       >
-        <option disabled selected>
+        <option disabled defaultValue={Qty}>
           Qty
         </option>
         {opt.map((el) => {
