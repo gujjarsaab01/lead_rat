@@ -13,7 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.letter-spacing{
+.letter-spacing {
   letter-spacing: 3px;
 }
 
@@ -54,16 +54,14 @@ code {
   background-color: #fff;
   color: #646262;
 }
- .custom-select:hover {
- cursor: pointer;
-} 
+.custom-select:hover {
+  cursor: pointer;
+}
 
 .custom-select option {
   background-color: #fff;
   color: #333;
 }
-
-
 
 .custom-select:focus {
   outline: none;
@@ -115,30 +113,27 @@ button {
   position: absolute;
 }
 
- button:hover {
+button:hover {
   background-color: #45a049;
 }
-.screen{
+.screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top:1px solid #5a6268;
+  border-top: 1px solid #5a6268;
   margin-top: 10px;
-  
 }
-.screen img{
+.screen img {
   /* border-top:1px solid #5a6268; */
   position: relative;
   width: 40%;
- left: 4%;
-
-
+  left: 4%;
 }
-.screen p{
-position: relative;
-left: 5%;
-letter-spacing: 3px;
+.screen p {
+  position: relative;
+  left: 5%;
+  letter-spacing: 3px;
 }
 
 /*  styles info component */
@@ -239,7 +234,6 @@ letter-spacing: 3px;
 }
 
 .modal-footer {
-  
   flex-wrap: wrap;
   display: flex;
   position: relative;
@@ -256,11 +250,9 @@ letter-spacing: 3px;
   text-align: center;
 }
 .btn-secondary {
- 
   color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
-  
 }
 .btn-primary {
   margin-right: 8rem;
@@ -268,8 +260,6 @@ letter-spacing: 3px;
   background-color: #007bff;
   border-color: #007bff;
 }
-
-
 
 #notification {
   display: flex;
@@ -300,44 +290,35 @@ letter-spacing: 3px;
 }
 
 
-
-
-
-
-
-/* Existing styles remain unchanged */
-
-/* Add a media query for devices with a maximum width of 500 pixels */
 @media (max-width: 500px) {
-  *{
-    overflow-x: auto;
+  * {
+    overflow-x: hidden;
     font-size: 15px;
-   
   }
   .app {
-    
-    display: flex;
-     flex-direction: column;
-  }
-
-  .header{
     display: flex;
     flex-direction: column;
   }
-  .header h2, p{
-    font-size: 19px !important;
-    margin: 3px ;
-  }
-  .select{
 
-    margin: 4px;
-    margin-bottom: 5px;
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header h2,
+  p {
+    font-size: 19px !important;
+    margin: 3px;
+  }
+  .select {
+    position: relative;
+    left: -2%;
+    margin: 3px 0 ;
+    
     overflow: hidden;
   }
 
-
   .container {
-   margin: 20px;
+    margin: 8px 20px;
     padding: 15px;
     max-width: 100%;
     overflow-x: scroll;
@@ -345,34 +326,30 @@ letter-spacing: 3px;
   }
 
   table td {
-    
-    font-size: 14px; /* Adjust the font size for better readability on mobile */
+    font-size: 14px; 
   }
 
   button {
-   width: 90%;
-  
-   left: 5%;
-  }
-  .screen{
-    
-    overflow-x: hidden;
- position: relative;
- left: 100%;
+    width: 89%;
 
+    left: 4%;
   }
-  .screen img{
-    
+  .screen {
+    overflow-x: hidden;
+    position: relative;
+    left: 100%;
+  }
+  .screen img {
     width: 100%;
     height: 5vh;
   }
-.screen p{
-  margin-top: 5px;
-  font-size: 10px !important;
-}
+  .screen p {
+    margin-top: 5px;
+    font-size: 10px !important;
+  }
   .info {
     padding: 20px;
-    left: 0; 
+    left: 0;
     margin-top: 10px;
   }
   .modal-dialog {
@@ -380,37 +357,35 @@ letter-spacing: 3px;
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
-    width: 90%; 
-    
-    height:  auto;
-   
+    width: 90%;
+
+    height: auto;
   }
   .modal-footer {
     display: flex;
     flex-direction: row;
-   
+
     width: 50%;
-    left: 0; 
+    left: 0;
     /* margin-right: 0;  */
   }
-.btn-secondary{
-  position: relative;
-}
+  .btn-secondary {
+    position: relative;
+  }
   .btn-primary {
     display: inline-block;
     position: relative;
-   
+
     margin: 0.4rem 0;
-    
   }
 
   #notification {
     text-wrap: wrap;
-    width: 80%; /* Adjust the notification width for better display on mobile */
+    width: 80%; 
   }
 
   #notification > button {
     margin: 10px;
-    width: 90%; /* Adjust the button width for better display on mobile */
+    width: 90%; 
   }
 }
