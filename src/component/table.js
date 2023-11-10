@@ -108,7 +108,11 @@ function Table({ proceed, setProceed, setConfirm }) {
               );
             })}
           </tbody>
-        </table>
+          </table>
+          <div className="screen">
+            <img src="screen.png" alt="" />
+            <p>All Eyes This Way!</p>
+          </div>
       </div>
       <button className="letter-spacing" onClick={() => setConfirm(true)}>PROCEED</button>
       </div>

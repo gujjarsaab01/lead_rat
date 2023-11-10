@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 code {
@@ -81,12 +82,14 @@ code {
   margin-bottom: 5px;
   padding: 5px;
   max-width: 66%;
+  max-height: 70vh;
   /* padding-top: 1rem; */
   border: 1px solid #ccc;
   position: relative;
 
   border-radius: 5px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container p {
   margin: 0;
@@ -115,14 +118,36 @@ button {
  button:hover {
   background-color: #45a049;
 }
+.screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top:1px solid #5a6268;
+  margin-top: 10px;
+  
+}
+.screen img{
+  /* border-top:1px solid #5a6268; */
+  position: relative;
+  width: 40%;
+ left: 4%;
+
+
+}
+.screen p{
+position: relative;
+left: 5%;
+letter-spacing: 3px;
+}
 
 /*  styles info component */
 .info {
   /* padding: 20px; */
   /* border-radius: 5px; */
   position: relative;
-  top: -5%;
-  left: -110%;
+  top: -5.3%;
+  left: -135%;
   flex-wrap: wrap;
 }
 
