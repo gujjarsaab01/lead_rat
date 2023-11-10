@@ -96,7 +96,7 @@ function Table({ proceed, setProceed, setConfirm }) {
                       );
                     })}
                   </tr>
-                  {i === 1 && (
+                  {i === 2 && (
                     <tr key={`line_${i}`}>
                       <td colSpan={seats.length + 1}>
                         {" "}
